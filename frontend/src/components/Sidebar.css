@@ -64,3 +64,56 @@
 .login-link svg {
   margin-right: 12px;
 }
+
+/* Mobile Responsiveness for Sidebar */
+@media screen and (max-width: 768px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: static;
+    border-right: none;
+    border-bottom: 1px solid #eaeaea;
+    padding: 15px;
+  }
+
+  .logo {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .sidebar-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+
+  .nav-item {
+    flex: 1;
+    min-width: 120px;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+
+  .sidebar-footer {
+    text-align: center;
+    margin-top: 15px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .sidebar {
+    padding: 10px;
+  }
+
+  .nav-item {
+    min-width: 100px;
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .nav-item svg {
+    margin-right: 8px;
+  }
+}

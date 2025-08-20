@@ -165,3 +165,107 @@
 .login-btn, .signup-btn {
     text-decoration: none;
 }
+
+/* Mobile Responsiveness for Landing Page */
+@media screen and (max-width: 768px) {
+  .second-section {
+    padding: 2rem 1rem;
+  }
+
+  .about-us {
+    padding: 10px;
+  }
+
+  .section-title {
+    font-size: 1.8rem;
+  }
+
+  .section-description {
+    font-size: 1rem;
+    margin: 20px 10px;
+    text-align: center;
+  }
+
+  .third-section {
+    width: 95%;
+    padding: 2rem 1rem;
+  }
+
+  .features-container {
+    padding: 10px;
+  }
+
+  .features-title {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+
+  .features-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 10px;
+  }
+
+  .feature-card {
+    padding: 20px;
+  }
+
+  .feature-image {
+    width: 100px;
+    height: 100px;
+  }
+
+  .feature-title {
+    font-size: 20px;
+  }
+
+  .feature-description {
+    font-size: 14px;
+  }
+
+  .fourth-section {
+    padding: 2rem 1rem;
+  }
+
+  .discover-button {
+    padding: 12px 24px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .section-title {
+    font-size: 1.5rem;
+  }
+
+  .section-description {
+    font-size: 0.9rem;
+    margin: 15px 5px;
+  }
+
+  .features-title {
+    font-size: 20px;
+  }
+
+  .feature-card {
+    padding: 15px;
+  }
+
+  .feature-image {
+    width: 80px;
+    height: 80px;
+  }
+
+  .feature-title {
+    font-size: 18px;
+  }
+
+  .feature-description {
+    font-size: 13px;
+  }
+
+  .discover-button {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+}

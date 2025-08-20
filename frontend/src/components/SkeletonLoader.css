@@ -30,3 +30,44 @@
   0% { background-position: 200% 0; }
   100% { background-position: -200% 0; }
 }
+
+/* Mobile Responsiveness for Skeleton Loader */
+@media screen and (max-width: 768px) {
+  .skeleton-container {
+    padding: 15px;
+  }
+
+  .skeleton-grid {
+    grid-template-columns: 1fr;
+    gap: 15px;
+    margin-top: 20px;
+  }
+
+  .skeleton-card {
+    height: 80px;
+    margin-bottom: 10px;
+  }
+
+  .skeleton-topic {
+    height: 120px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .skeleton-container {
+    padding: 10px;
+  }
+
+  .skeleton-grid {
+    gap: 10px;
+  }
+
+  .skeleton-card {
+    height: 70px;
+    margin-bottom: 8px;
+  }
+
+  .skeleton-topic {
+    height: 100px;
+  }
+}

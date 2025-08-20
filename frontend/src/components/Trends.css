@@ -90,3 +90,79 @@
   border-radius: 10px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
+
+/* Mobile Responsiveness for Trends Page */
+@media screen and (max-width: 768px) {
+  .trends-container {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .trends-header {
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px;
+  }
+
+  .search-bar {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .user-profile {
+    align-self: center;
+  }
+
+  .user-profile .welcome {
+    font-size: 16px;
+  }
+
+  .trends-content {
+    padding: 15px;
+  }
+
+  .trends-body {
+    padding: 15px;
+  }
+
+  .topics-grid {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .trend-card {
+    padding: 15px;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .trends-header {
+    padding: 10px;
+  }
+
+  .search-bar {
+    padding: 8px;
+    width: 100%;
+  }
+
+  .user-profile .welcome {
+    font-size: 14px;
+  }
+
+  .trends-content {
+    padding: 10px;
+  }
+
+  .trends-body {
+    padding: 10px;
+  }
+
+  .trend-card {
+    padding: 12px;
+  }
+
+  .topic-card {
+    padding: 12px;
+  }
+}
