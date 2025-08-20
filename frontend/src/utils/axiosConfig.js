@@ -1,6 +1,9 @@
 import axios from 'axios';
 
+const API_BASE_URL = process.env.REACT_APP_API_URL || 'https://your-backend-domain.vercel.app';
+
 const axiosInstance = axios.create({
+  baseURL: API_BASE_URL,
   withCredentials: true,
   validateStatus: function (status) {
     return status < 500; // Don't reject if status is less than 500
