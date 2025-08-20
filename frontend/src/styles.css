@@ -579,6 +579,14 @@ html, body {
     padding: 0.5rem 1rem;
   }
   
+  .navbar-landing .auth-buttons {
+    display: none;
+  }
+  
+  .page-container .navbar .auth-buttons {
+    display: none;
+  }
+  
   .logo-image {
     height: 30px;
   }
@@ -698,6 +706,14 @@ html, body {
   .navbar-landing {
     width: 98%;
     left: 5px;
+  }
+  
+  .navbar-landing .auth-buttons {
+    display: none;
+  }
+  
+  .page-container .navbar .auth-buttons {
+    display: none;
   }
   
   .hero-title {
